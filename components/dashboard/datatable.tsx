@@ -320,7 +320,7 @@ export function DataTable<TData extends object>({
   const [open, setOpen] = React.useState<boolean>(false);
 
   return (
-    <div className="w-[800px]">
+    <div className="w-[980px]">
       <div className="flex items-center py-4">
         {searchColumn && (
             <Input
